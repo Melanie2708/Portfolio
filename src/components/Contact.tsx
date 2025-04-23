@@ -52,7 +52,7 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
           <h1>Contactez moi</h1>
-          <p>Vous souhaitez réaliser un projet? Contactez moi pour que nous en discutions!</p>
+          <p>Vous souhaitez réaliser un projet ? Contactez moi pour que nous en discutions !</p>
           <Box
             ref={form}
             component="form"
@@ -102,7 +102,7 @@ function Contact() {
               helperText={messageError ? "Merci d'indiquer votre demande" : ""}
             />
             <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
-              Send
+              Envoyer
             </Button>
           </Box>
         </div>
